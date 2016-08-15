@@ -1,0 +1,24 @@
+{
+    "name": "antiphp/phpshell",
+    "description": "Interactive shell to extend PHP classes, interfaces, traits or frameworks",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Reinecke",
+            "email": "christian.reinecke@web.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/console": "^3.1",
+        "symfony/finder": "^3.1",
+        "zendframework/zend-servicemanager": "2.4.*",
+        "zendframework/zend-view": "2.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AntiPhp\\PhpShell\\": "library/"
+        }
+    }
+}
